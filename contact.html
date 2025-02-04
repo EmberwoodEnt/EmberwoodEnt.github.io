@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Emberwood Entertainment</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/Logo.jpeg" alt="Emberwood Entertainment Logo">
+                <span class="studio-name">Emberwood Entertainment</span>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="8" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>We'd love to hear from you! Reach out to us for inquiries, collaborations, or just to say hello.</p>
+                <ul>
+                    <li>
+                        <img src="assets/map_icon.png" alt="Location Icon">
+                        <p>123 Game Dev Lane, Studio City, CA 90210</p>
+                    </li>
+                    <li>
+                        <img src="assets/mail_icon.png" alt="Email Icon">
+                        <p>info@emberwoodent.com</p>
+                    </li>
+                    <li>
+                        <img src="assets/phone_social_icon.png" alt="Phone Icon">
+                        <p>+1 (555) 123-4567</p>
+                    </li>
+                </ul>
+                <div class="social-media">
+                    <a href="https://twitter.com/yourhandle" target="_blank">
+                        <img src="assets/twitter logo_icon.png" alt="Twitter">
+                    </a>
+                    <a href="https://instagram.com/yourhandle" target="_blank">
+                        <img src="assets/instagram logo_icon.png" alt="Instagram">
+                    </a>
+                    <a href="https://youtube.com/yourhandle" target="_blank">
+                        <img src="assets/youtube logo_icon.png" alt="YouTube">
+                    </a>
+                    <a href="https://discord.gg/yourinvite" target="_blank">
+                        <img src="assets/discord_logo_icon.png" alt="Discord">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.837075509742!2d-118.3522206847841!3d34.06732372359529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b8b8b8b8b8b9%3A0x8b8b8b8b8b8b8b8b!2sStudio%20City%2C%20CA%2090210%2C%20USA!5e0!3m2!1sen!2s!4v1633021234567!5m2!1sen!2s" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Emberwood Entertainment. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
