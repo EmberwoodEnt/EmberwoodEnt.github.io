@@ -939,3 +939,59 @@ footer {
     white-space: nowrap;
     animation: typing 3s steps(40, end);
 }
+/* Blog Post Section */
+.blog-post {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blog-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.blog-header .meta {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.blog-content {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.blog-content img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-content h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.blog-content h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.blog-content p {
+    margin-bottom: 20px;
+}
+
+.blog-content blockquote {
+    border-left: 4px solid #ff6f61;
+    padding-left: 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #ccc;
+}
