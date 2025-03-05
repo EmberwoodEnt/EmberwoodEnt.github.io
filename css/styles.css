@@ -12,7 +12,7 @@ body {
 
 /* Navigation Bar */
 header {
-    background-color: #333;
+    background-color: #efebdc;
     padding: 15px 0;
     position: sticky;
     top: 0;
@@ -42,7 +42,7 @@ nav .logo img {
 nav .studio-name {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #efebdc;
+    color: #1e1c1c;
 }
 
 nav ul {
@@ -58,7 +58,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #efebdc;
+    color: #1e1c1c;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
@@ -95,7 +95,7 @@ nav ul li a:hover::after {
 .hamburger span {
     width: 25px;
     height: 3px;
-    background: #ffffff;
+    background: #1e1c1c;
     margin: 4px 0;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -112,7 +112,6 @@ nav ul li a:hover::after {
         position: absolute;
         top: 70px;
         right: 20px;
-        background-color: #333;
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -141,7 +140,7 @@ nav ul li a:hover::after {
 /* Home Section */
 .hero {
     position: relative;
-    background: #3b2926; /* Brownish background */
+    background: #1e1c1c; /* Blackish background */
     height: 100vh;
     display: flex;
     flex-direction: column;
