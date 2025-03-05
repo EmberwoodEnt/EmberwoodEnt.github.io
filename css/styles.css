@@ -1,6 +1,8 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Rubik", "Segoe UI", sans-serif;
+
+    src: '';
     margin: 0;
     padding: 0;
     background-color: #1e1e1e;
