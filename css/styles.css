@@ -1,13 +1,11 @@
 /* General Styles */
 
-*
-font-family: "Rubik", "Segoe UI", sans-serif;
-
 body {
+    font-family: "Rubik", "Segoe UI", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #1e1e1e;
-    color: #ffffff;
+    color: #b9642e;
     line-height: 1.6;
 }
 
