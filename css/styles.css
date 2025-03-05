@@ -143,14 +143,14 @@ nav ul li a:hover::after {
 /* Home Section */
 .hero {
     position: relative;
-    background: #3e2723; /* Brownish background */
+    background: #3b2926; /* Brownish background */
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #ffffff;
+    color: #efebdc;
     overflow: hidden;
 }
 
@@ -200,8 +200,8 @@ nav ul li a:hover::after {
 }
 
 .hero .btn {
-    background-color: #ff6f61;
-    color: #ffffff;
+    background-color: #793a26;
+    color: #efebdc;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
