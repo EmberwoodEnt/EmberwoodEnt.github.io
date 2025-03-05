@@ -151,18 +151,18 @@ nav ul li a:hover::after {
     overflow: hidden;
 }
 
-.logo2 {
+.hero .logo2 {
     width: 75%;
     height: 75%;
 }
 
-
+/*
 .fire-sparkles {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 75%;
     background: radial-gradient(circle, transparent 10%, rgba(255, 111, 97, 0.1) 20%, transparent 30%);
     animation: sparkles 3s infinite linear;
     z-index: 0;
@@ -182,6 +182,7 @@ nav ul li a:hover::after {
         opacity: 0.8;
     }
 }
+    */
 
 .hero h1, .hero p {
     position: relative;
@@ -189,7 +190,7 @@ nav ul li a:hover::after {
 }
 
 
-    
+/*
 .emberwood-effect {
 animation: ember-glow 3s infinite alternate;
 text-shadow: 0 0 10px rgba(255, 111, 97, 0.8), 0 0 20px rgba(255, 111, 97, 0.8), 0 0 30px rgba(255, 111, 97, 0.8);
@@ -203,10 +204,10 @@ text-shadow: 0 0 10px rgba(255, 111, 97, 0.8), 0 0 20px rgba(255, 111, 97, 0.8),
         text-shadow: 0 0 20px rgba(255, 111, 97, 1), 0 0 40px rgba(255, 111, 97, 1), 0 0 60px rgba(255, 111, 97, 1);
     }
 }
-    
+    */
 
 .hero .btn {
-    background-color: #793a26;
+    background-color: #d69e38;
     color: #efebdc;
     padding: 10px 20px;
     text-decoration: none;
@@ -219,7 +220,7 @@ text-shadow: 0 0 10px rgba(255, 111, 97, 0.8), 0 0 20px rgba(255, 111, 97, 0.8),
 }
 
 .hero .btn:hover {
-    background-color: #ff4a3d;
+    background-color: #793a26;
 }
 
 /* Footer */
